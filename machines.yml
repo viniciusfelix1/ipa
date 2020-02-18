@@ -1,0 +1,20 @@
+#IPA Server
+- name: ipaserver
+  cpus: 1
+  memory: 2048
+  ip: 172.16.10.10
+  so: centos/7
+
+#IPA Client 1 - Centos
+- name: ipaclient1
+  cpus: 1
+  memory: 1024
+  ip: 172.16.10.20
+  so: centos/7
+
+#IPA Client 2 - Ubuntu
+- name: ipaclient2
+  cpus: 1
+  memory: 1024
+  ip: 172.16.10.21
+  so: ubuntu/bionic64
